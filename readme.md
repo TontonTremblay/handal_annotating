@@ -16,13 +16,11 @@ In order to edit the meshes, you first click on `Select Next Object` it will pic
 In order to run the script in blender, open the `Python Console`, first run 
 ```
 exec(compile(open("/PATH/TO/SCRIPT/handal_annotating/load_all_ply_from_folder.py").read(), "/PATH/TO/SCRIPT/handal_annotating/load_all_ply_from_folder.py", 'exec'))
-
 ```
 Check your path here, check the script file to add the absolute path to where your data is. 
 Once this is run, add the menu see above. 
 ```
 exec(compile(open("/PATH/TO/SCRIPT/handal_annotating/menu.py").read(), "/PATH/TO/SCRIPT/handal_annotating/menu.py", 'exec'))
-
 ```
 See above for understanding how to use the menu. In the script, you have to mention the output folder. Search for the `path` in the file to describe where you want to output the annotation. 
 
